@@ -17,13 +17,13 @@ A lightweight, robust, and interactive shell script to install, enable, and conf
 You can run the script directly via `wget` and pipe it into `sh`:
 
 ```bash
-wget [https://bit.ly/3UIY9oK](https://bit.ly/3UIY9oK) -O - | sh
+wget https://bit.ly/3UIY9oK -O - | sh
 ```
 
 Or with:
 
 ```bash
-wget [https://raw.githubusercontent.com/Michdo93/ssh-bootstrap-kit/refs/heads/main/install.sh](https://raw.githubusercontent.com/Michdo93/ssh-bootstrap-kit/refs/heads/main/install.sh) -O - | sh
+wget https://raw.githubusercontent.com/Michdo93/ssh-bootstrap-kit/refs/heads/main/install.sh -O - | sh
 ```
 
 ---
@@ -47,7 +47,7 @@ wget [https://raw.githubusercontent.com/Michdo93/ssh-bootstrap-kit/refs/heads/ma
 If you prefer to inspect the script before running it:
 
 ```bash
-git clone [https://github.com/Michdo93/ssh-bootstrap-kit](https://github.com/Michdo93/ssh-bootstrap-kit)
+git clone https://github.com/Michdo93/ssh-bootstrap-kit
 cd ssh-bootstrap-kit
 chmod +x install.sh
 sudo ./install.sh
